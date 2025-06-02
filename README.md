@@ -13,11 +13,12 @@ Hier findest du Projekte aus Studium, Praxis und persönlichem Interesse.
 Im Rahmen der Vorlesung **„Digitale Signalprozessoren“** haben wir im Team ein System zur aktiven Rauschunterdrückung auf einem Mikrocontroller entwickelt.
 
 - Ziel: Störgeräusche (z. B. Sinustöne, weißes Rauschen) in Echtzeit automatisch erkennen und entfernen
-- Analyse der Geräuscharten über Frequenzberechnung (FFT)
-- Einsatz verschiedener Filter (Notch-, LMS- und Wienerfilter) je nach Situation
+- Umsetzung auf dem FM4-176L-S6E2CC-ETH (Pioneer Kit) Mikrocontroller
+- Analyse der Geräusche mit FFT zur dynamischen Filterwahl
+- Auswahl und Anwendung geeigneter Filter (Notch-, LMS- und Wienerfilter)
 - Test in Live-Szenarien: z. B. Ton unterdrücken, während gleichzeitig gesprochen wird
 - Automatische Anpassung der Filter nach Neustart des Systems
-- 
+  
 Besonders effektiv war der **LMS-Filter**, der sinusförmige Störsignale auch bei Frequenzänderungen zuverlässig unterdrücken konnte.
 
 
